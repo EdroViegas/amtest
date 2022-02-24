@@ -5,6 +5,8 @@ import { CustomerModule } from "./customer/customer.module";
 import { AddressModule } from "./address/address.module";
 import { ProductModule } from "./product/product.module";
 import { TeamModule } from "./team/team.module";
+import { TransportModule } from "./transport/transport.module";
+import { CarModule } from "./car/car.module";
 import { ACLModule } from "./auth/acl.module";
 import { AuthModule } from "./auth/auth.module";
 import { HealthModule } from "./health/health.module";
@@ -24,6 +26,8 @@ import { GraphQLModule } from "@nestjs/graphql";
     AddressModule,
     ProductModule,
     TeamModule,
+    TransportModule,
+    CarModule,
     ACLModule,
     AuthModule,
     HealthModule,

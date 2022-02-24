@@ -29,6 +29,14 @@ import { TeamList } from "./team/TeamList";
 import { TeamCreate } from "./team/TeamCreate";
 import { TeamEdit } from "./team/TeamEdit";
 import { TeamShow } from "./team/TeamShow";
+import { TransportList } from "./transport/TransportList";
+import { TransportCreate } from "./transport/TransportCreate";
+import { TransportEdit } from "./transport/TransportEdit";
+import { TransportShow } from "./transport/TransportShow";
+import { CarList } from "./car/CarList";
+import { CarCreate } from "./car/CarCreate";
+import { CarEdit } from "./car/CarEdit";
+import { CarShow } from "./car/CarShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -96,6 +104,20 @@ const App = (): React.ReactElement => {
           edit={TeamEdit}
           create={TeamCreate}
           show={TeamShow}
+        />
+        <Resource
+          name="Transport"
+          list={TransportList}
+          edit={TransportEdit}
+          create={TransportCreate}
+          show={TransportShow}
+        />
+        <Resource
+          name="Car"
+          list={CarList}
+          edit={CarEdit}
+          create={CarCreate}
+          show={CarShow}
         />
       </Admin>
     </div>

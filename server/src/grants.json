@@ -6,7 +6,31 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "User",
     "action": "create:any",
     "attributes": "*"
@@ -18,7 +42,31 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "User",
     "action": "delete:any",
     "attributes": "*"
@@ -30,7 +78,31 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Order",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Order",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Order",
     "action": "read:own",
     "attributes": "*"
@@ -42,13 +114,49 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Order",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Order",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
     "resource": "Order",
     "action": "update:any",
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Order",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Order",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Order",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Order",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Order",
     "action": "delete:any",
     "attributes": "*"
@@ -60,7 +168,31 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Order",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Order",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Customer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Customer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Customer",
     "action": "read:own",
     "attributes": "*"
@@ -72,13 +204,49 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Customer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Customer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
     "resource": "Customer",
     "action": "update:any",
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Customer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Customer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Customer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Customer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Customer",
     "action": "delete:any",
     "attributes": "*"
@@ -90,7 +258,31 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Customer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Customer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Address",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Address",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Address",
     "action": "read:own",
     "attributes": "*"
@@ -102,13 +294,49 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Address",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Address",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
     "resource": "Address",
     "action": "update:any",
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Address",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Address",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Address",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Address",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Address",
     "action": "delete:any",
     "attributes": "*"
@@ -120,7 +348,31 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Address",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Address",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Product",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Product",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Product",
     "action": "read:own",
     "attributes": "*"
@@ -132,13 +384,49 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Product",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Product",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
     "resource": "Product",
     "action": "update:any",
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Product",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Product",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Product",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Product",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Product",
     "action": "delete:any",
     "attributes": "*"
@@ -150,7 +438,31 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Product",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Product",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Team",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Team",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Team",
     "action": "read:own",
     "attributes": "*"
@@ -162,7 +474,31 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Team",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Team",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "Team",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Team",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "Team",
     "action": "update:any",
     "attributes": "*"
@@ -174,8 +510,194 @@
     "attributes": "*"
   },
   {
+    "role": "supervisor",
+    "resource": "Team",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Team",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
     "resource": "Team",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Team",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Team",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transport",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Transport",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Transport",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transport",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Transport",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Transport",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transport",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Transport",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Transport",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transport",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Transport",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Transport",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Car",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Car",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Car",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Car",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Car",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Car",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Car",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Car",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Car",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Car",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Car",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Car",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Car",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "supervisor",
+    "resource": "Car",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Car",
     "action": "read:any",
     "attributes": "*"
   }
