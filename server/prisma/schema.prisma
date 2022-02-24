@@ -72,3 +72,20 @@ model Team {
   name      String?  @unique
   updatedAt DateTime @updatedAt
 }
+
+model Transport {
+  brand     String?
+  carId     Car[]
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  model     String?
+  updatedAt DateTime @updatedAt
+}
+
+model Car {
+  createdAt  DateTime    @default(now())
+  id         String      @id @default(cuid())
+  matricula  String?
+  transports Transport[]
+  updatedAt  DateTime    @updatedAt
+}
